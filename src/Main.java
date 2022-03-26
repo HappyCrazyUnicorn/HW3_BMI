@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         BmiService service = new BmiService(); //создаем объект из класса BmiService
-        double height = 180; //объявляем переменную роста в метрах
+        double height = 180; //объявляем переменную роста в сантиметрах
         long mass = 70; //объявляем переменную веса в кг
 
         double bmi = service.calculate(height, mass); //вызываем метод calculate из класса BmiService, передаем на вход рост и вес
